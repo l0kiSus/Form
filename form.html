@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sample Form</title>
+</head>
+<body>
+
+    <h2>User Information Form</h2>
+
+    <form>
+        <label for="fullname">Full Name:</label>
+        <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="example@mail.com" required>
+        <br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Create a password">
+        <br><br>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" name="age" min="1" max="150" placeholder="Your age">
+        <br><br>
+
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <label>health check</label><br>
+        <input type="checkbox" id="health" name="strong and healthy">
+        <label for="health">strong and healthy</label>
+
+        <input type="checkbox" id="health" name="medium condition">
+        <label for="health">medium condition</label>
+
+        <input type="checkbox" id="health" name="weak and poor health">
+        <label for="health">weak and poor health</label>
+        <br><br>
+
+        <label for="birthdate">Birthdate:</label>
+        <input type="date" id="birthdate" name="birthdate">
+        <br><br>
+
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="">Select your country</option>
+            <option value="usa">United States</option>
+            <option value="canada">Canada</option>
+            <option value="uk">United Kingdom</option>
+            <option value="australia">Australia</option>
+            <option value="Cambodia">Cambodia</option>
+            <option value="Vietnam">Vietnam</option>
+            <option value="Japan">Japan</option>
+        </select>
+        <br><br>
+
+        <button type="submit">Submit</button>
+
+    </form>
+
+</body>
+</html>
+
